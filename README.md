@@ -16,22 +16,23 @@
 - [maroon][maroon-lang] : _"A (nearly) pure functional programming language. (Lambda Calculus)"_
 - [leema][leema-lang] : _"A functional programming language designed for concurrency and failure"_
 - [mnemosyne][mnemosyne-lang] : _"A functional systems programming language with compile-time memory management"_
-- [ichigo-lang][ichigo-lang] : _"a little simply typed functional language to practice Rust (toy)"_
+- [ichigo-lang][ichigo-lang] : _"A little simply typed functional language to practice Rust (toy)"_
 - [odo][odo-lang] : _"Main idea behind the project is to combine functional programming with ownership types. (A simple functional lang)"_
 - [beige][beige-lang] : _"A functional programming language"_
 - [ein][ein-lang] : _"The deterministic functional programming language_"
 - [ssf][ssf-lang] : _"Structurally-typed strict functional core language_"
-- [lambda.rs][lrs] : _"a minimal functional language inspired by the lambda calculus"_
-- [stlc][stlc.rs] : _"simply typed lambda calculus written in rust"_
+- [lambda.rs][lrs] : _"A minimal functional language inspired by the lambda calculus"_
+- [stlc][stlc.rs] : _"Simply typed lambda calculus written in rust"_
 - [Church Programming Language][church] : _"A minimalistic implementation following the original specifications of the lambda calculus outlined in Alonzo Churches 'An Unsolvable Problem in Elementary Number Theory'"_
 - [lamda calculus (ljedrz)][lam-calc-lj] : _"A simple, zero-dependency implementation of the untyped lambda calculus in Safe Rust"_
 - [lalrpop-lambda][lalrpop] : _"A λ-calculus grammar/interpretor written using LALRPOP and `λ!`."_
-- \* [gluon][gluon-lang] : _"a small, statically-typed, functional programming language designed for application embedding."_
-- \* [tyrade][tyrade] : _"A pure functional language for type-level programming in Rust"_
-- \* [tao][tao] : _"A statically-typed functional programming language"_
+- [gluon][gluon-lang] : _"A small, statically-typed, functional programming language designed for application embedding."_
+- [tyrade][tyrade] : _"A pure functional language for type-level programming in Rust"_
+- [tao][tao] : _"A statically-typed functional programming language"_
 - [friday-lang][friday-lang] : _"Dynamically typed strict ML-like functional language with extensible syntax"_
 - [tego-lang][tego-lang] : _"A language based around category theory, sum types, and product types"_
-- [atto-lang][atto-lang] : _" an insanely simple functional programming language._"
+- [atto-lang][atto-lang] : _"An insanely simple functional programming language._"
+- [rain-lang-IR][rain-lang] : _"An implementation of an RVSDG with a strong linear type system and a concept of lifetimes"_
 
 [leaf-lang]: https://github.com/simvux/leaf
 [maroon-lang]: https://github.com/adam-mcdaniel/maroon-lang
@@ -53,10 +54,10 @@
 [friday-lang]: https://github.com/98devin/friday
 [tego-lang]: https://github.com/theDragonFire/tego-lang
 [atto-lang]: https://github.com/zesterer/atto
-
+[rain-lang]: https://github.com/rain-lang/rain-ir
 
 ### Implementations (Examples) ?
-- [type inference tawashichan)][type-inf-taw] : _"type inference for a simple type system in practice"_
+- [type inference tawashichan)][type-inf-taw] : _"Type inference for a simple type system in practice"_
 - [sample language implementation (in rust)][t-lang-rs] : _"Let's implement a simple language to know how the compiler feels."_
 - [lambdacuba][lamcube] : _"repl.it for type systems"_
 
@@ -66,7 +67,7 @@
 
 
 ## Interpreters, Compilers, Libraries (not complete languages)
-- [RustLambda][rslam] : _"interpreter for lambda calculus in Rust"_
+- [RustLambda][rslam] : _"An interpreter for lambda calculus in Rust"_
 - [Typed Lambda (WaDelma)][typed-lam-wadelma]
 - [asm2lam][a2l] : _"Experimental project tools to turn assembly to executable code as well as mutate said assembly."_
 - [Untyped Lambda Calculus][untyped-lam-meddle] : _"TAPL untyped lambda calculus implementation in Rust"_
@@ -74,8 +75,8 @@
 - [quantum lambda][qm-lam] : _"QM Lambda Calculus in rust"_
 - [lambdaski][type-lam-combinators] : _"Type level combinators in Rust"_
 - [lcc][lcc] : _"A simple lambda calculus compiler (really an interpreter) written in Rust"_
-- [lam-calc][lc-proper] : _"implementation of the untyped λ-calculus[1] in Rust"_
-- [untyped lambda interpreter][utl-interpreter] : _"original untyped lambda interpreter"_
+- [lam-calc][lc-proper] : _"An implementation of the untyped λ-calculus[1] in Rust"_
+- [untyped lambda interpreter][utl-interpreter] : _"An original untyped lambda interpreter"_
 - [proto-lambda][proto-lam]
 
 [rslam]: https://github.com/elipmoc/RustLambda
@@ -92,7 +93,7 @@
 
 
 ## Uncategorized, but maybe helpful?
-- [llir][llir.rs] (/shrug ?)
+- [llir][llir.rs]
 - [HM Type Inference][hm-type-inf] : _"Hindley-Milner type inference in Rust"_
 - [REPL, untyped Lambda Calculus][repl-utlc] : _"Simple REPL for untyped lambda calculus"_
 - [binlam][bin-lam] : _"Binary lambda calculus interpreter (and assembler)"_
