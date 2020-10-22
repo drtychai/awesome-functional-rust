@@ -2,14 +2,17 @@
 (WIP) List of Functional Languages and FP in Rust
 
 ## Functional Programming Learning Resources
-- [Hands On Functional Programming in Rust][hofpr]
+- [_"Hands On Functional Programming in Rust"_ Packt][hofpr]
 - [LambdaConf 2015 Talk (jroesch)][lambda-pptx] : _"Materials for my talk at LambdaConf 2015"_
 - [Type Theory Compiler][ttc] : _"Compiler for type theoretic lambda calculi equipped with system primtives which compiles side-effecting, strict expressions into efficient LLVM IR."_
+- [LLVM Tutorial in Rust][llvm-tutorial] : _"LLVM tutorial in Rust language"_
+- [_"Types and Programming Languages"_ Benjamin C. Pierce][tapl-rs]
 
 [hofpr]: https://github.com/PacktPublishing/Hands-On-Functional-Programming-in-Rust
 [lambda-pptx]: https://github.com/jroesch/lambdaconf-2015
 [ttc]: https://github.com/andgate/type-theory-compiler
-
+[llvm-tutorial]: https://github.com/jauhien/iron-kaleidoscope
+[tapl-rs]: https://www.cis.upenn.edu/~bcpierce/tapl/
 
 ## \[Rust-based\] Functional Languages
 - [leaf][leaf-lang] : _"High-Level Functional Programming Language Focused On Efficiency"_
@@ -23,7 +26,6 @@
 - [ssf][ssf-lang] : _"Structurally-typed strict functional core language_"
 - [lambda.rs][lrs] : _"A minimal functional language inspired by the lambda calculus"_
 - [stlc][stlc.rs] : _"Simply typed lambda calculus written in rust"_
-- [Church Programming Language][church] : _"A minimalistic implementation following the original specifications of the lambda calculus outlined in Alonzo Churches 'An Unsolvable Problem in Elementary Number Theory'"_
 - [lamda calculus (ljedrz)][lam-calc-lj] : _"A simple, zero-dependency implementation of the untyped lambda calculus in Safe Rust"_
 - [lalrpop-lambda][lalrpop] : _"A λ-calculus grammar/interpretor written using LALRPOP and `λ!`."_
 - [gluon][gluon-lang] : _"A small, statically-typed, functional programming language designed for application embedding."_
@@ -57,7 +59,7 @@
 [rain-lang]: https://github.com/rain-lang/rain-ir
 
 ### Implementations (Examples) ?
-- [type inference tawashichan)][type-inf-taw] : _"Type inference for a simple type system in practice"_
+- [type inference (tawashichan)][type-inf-taw] : _"Type inference for a simple type system in practice"_
 - [sample language implementation (in rust)][t-lang-rs] : _"Let's implement a simple language to know how the compiler feels."_
 - [lambdacuba][lamcube] : _"repl.it for type systems"_
 
@@ -98,12 +100,11 @@
 - [REPL, untyped Lambda Calculus][repl-utlc] : _"Simple REPL for untyped lambda calculus"_
 - [binlam][bin-lam] : _"Binary lambda calculus interpreter (and assembler)"_
 - [lambda macro][lam-macro] : _"A lambda! macro for rust"_
+- [erlang IR (eir)][erlang-ir] : _"Erlang compiler and IR implemented in Rust"_
 
 [llir.rs]: https://github.com/raviqqe/llir.rs
 [hm-type-inf]: https://github.com/raviqqe/hm-type-inference
 [repl-utlc]: https://github.com/tibordp/lambdars
 [bin-lam]: https://github.com/sjsch/binlam
 [lam-macro]: https://github.com/mystor/lambda-macro
-
-
-
+[erlang-ir]: https://github.com/eirproject/eir
