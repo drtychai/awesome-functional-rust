@@ -69,7 +69,7 @@
 - [RustLambda][rslam] : _"interpreter for lambda calculus in Rust"_
 - [Typed Lambda (WaDelma)][typed-lam-wadelma]
 - [asm2lam][a2l] : _"Experimental project tools to turn assembly to executable code as well as mutate said assembly."_
-- [Untyped Lambda Calculus][untyped-lam-meedle] : _"TAPL untyped lambda calculus implementation in Rust"_
+- [Untyped Lambda Calculus][untyped-lam-meddle] : _"TAPL untyped lambda calculus implementation in Rust"_
 - [lambda list][rs-lam-faucette] : _"lambda is a list in rust"_
 - [quantum lambda][qm-lam] : _"QM Lambda Calculus in rust"_
 - [lambdaski][type-lam-combinators] : _"Type level combinators in Rust"_
@@ -95,7 +95,7 @@
 - [llir][llir.rs] (/shrug ?)
 - [HM Type Inference][hm-type-inf] : _"Hindley-Milner type inference in Rust"_
 - [REPL, untyped Lambda Calculus][repl-utlc] : _"Simple REPL for untyped lambda calculus"_
-- [binlam][binlam] : _"Binary lambda calculus interpreter (and assembler)"_
+- [binlam][bin-lam] : _"Binary lambda calculus interpreter (and assembler)"_
 - [lambda macro][lam-macro] : _"A lambda! macro for rust"_
 
 [llir.rs]: https://github.com/raviqqe/llir.rs
